@@ -1,0 +1,43 @@
+{
+  "presets": ["poi/babel", "@emotion/babel-preset-css-prop"],
+  "plugins": [
+    "react-hot-loader/babel",
+    // ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    // ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "lodash",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      },
+      "antd"
+    ],
+    [
+      "import",
+      {
+        "libraryName": "react-use",
+        "style": false,
+        "camel2DashComponentName": false
+      },
+      "react-use"
+    ],
+    // [
+    //   "import",
+    //   {
+    //     "libraryName": "lodash",
+    //     "libraryDirectory": "",
+    //     "camel2DashComponentName": false
+    //   },
+    //   "lodash"
+    // ],
+    // [
+    //   "tailwind-components",
+    //   {
+    //     "config": "./tailwind.config.js"
+    //   }
+    // ],
+    "macros",
+    "inline-react-svg"
+  ]
+}
