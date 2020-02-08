@@ -7,6 +7,7 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.5.2",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
@@ -14,9 +15,10 @@
     "@ky-is/tailwind-color-palette": "^1.0.0",
     "autoprefixer": "^9.7.4",
     "axios": "^0.19.2",
-    "clsx": "^1.0.4",
-    "firebase": "^7.7.0",
-    "framer-motion": "^1.8.3",
+    "clsx": "^1.1.0",
+    "emotion-theming": "^10.0.27",
+    "firebase": "^7.8.1",
+    "framer-motion": "^1.8.4",
     "initials": "^3.0.1",
     "lodash": "^4.17.15",
     "nprogress": "^0.2.0",
@@ -27,12 +29,12 @@
     "react-helmet": "^5.2.1",
     "react-hot-loader": "^4.12.19",
     "react-router-dom": "^5.1.2",
-    "react-use": "^13.22.3",
+    "react-use": "^13.24.0",
     "register-service-worker": "^1.6.2",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "@poi/plugin-eslint": "^12.0.1",
     "@poi/plugin-pwa": "^12.0.2",
     "babel-eslint": "^10.0.3",
@@ -46,13 +48,13 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.3.0",
     "poi": "^12.7.5",
     "postcss-import": "^12.0.1",
-    "purgecss-webpack-plugin": "^2.0.5",
+    "purgecss-webpack-plugin": "^2.0.6",
     "tailwind.macro": "^1.0.0-alpha.10",
     "webpack-bundle-analyzer": "^3.6.0"
   }

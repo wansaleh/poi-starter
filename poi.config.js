@@ -1,5 +1,3 @@
-const antdVars = require('./src/styles/antd-vars');
-
 module.exports = {
   entry: [
     // 'src/registerServiceWorker',
@@ -9,21 +7,6 @@ module.exports = {
   output: {
     html: {
       title: 'Starter'
-    }
-  },
-
-  plugins: [
-    // {
-    //   resolve: '@poi/plugin-eslint'
-    // },
-  ],
-
-  css: {
-    loaderOptions: {
-      less: {
-        javascriptEnabled: true,
-        modifyVars: antdVars
-      }
     }
   },
 
